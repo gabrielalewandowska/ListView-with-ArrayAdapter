@@ -1,10 +1,3 @@
-# ListView-with-ArrayAdapter
-
-ListView Custom ArrayAdapter Homework
-
-Learning objectives
-
-Practise creating a listView using a custom ArrayAdapter in an Android App
 Task
 
 Create a new Android app that displays a collection of your choice in a list. Maybe different types of trees, a songs chart, or whatever you feel like.
