@@ -13,14 +13,12 @@ public class BookListActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_book_list);
 
-        BookList topMovies = new BookList();
-        ArrayList<Book> list = topMovies.getList();
+        BookList bookList = new BookList();
+        ArrayList<Book> list = bookList.getList();
 
-        BookListAdapter movieAdapter = new BookListAdapter(this, list);
+        BookListAdapter bookAdapter = new BookListAdapter(this, list);
 
         ListView listView = (ListView) findViewById(R.id.list);
-        listView.setAdapter(movieAdapter);
+        listView.setAdapter(bookAdapter);
     }
-
-
 }
