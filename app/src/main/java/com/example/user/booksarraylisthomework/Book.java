@@ -5,17 +5,17 @@ package com.example.user.booksarraylisthomework;
  */
 
 public class Book {
-    int ranking;
+    Integer ranking;
     String title;
     String author;
 
-    public Book(int ranking, String title, String author) {
+    public Book(Integer ranking, String title, String author) {
         this.ranking = ranking;
         this.title = title;
         this.author = author;
     }
 
-    public int getRanking() {
+    public Integer getRanking() {
         return ranking;
     }
 
